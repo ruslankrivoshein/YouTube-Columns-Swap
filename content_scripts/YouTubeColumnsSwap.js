@@ -5,18 +5,18 @@
   window.hasRun = true
 
   function swapOn() {
-    const primary = document.querySelector('div#primary')
-    const secondary = document.querySelector('div#secondary')
+    const primary = document.querySelector('#columns #primary')
+    const secondary = document.querySelector('#columns #secondary')
 
-    document.querySelector('div#columns').insertBefore(secondary, primary)
+    document.querySelector('#columns').insertBefore(secondary, primary)
     secondary.style.marginLeft = '24px'
   }
 
   function swapOff() {
-    const primary = document.querySelector('div#primary')
-    const secondary = document.querySelector('div#secondary')
+    const primary = document.querySelector('#columns #primary')
+    const secondary = document.querySelector('#columns #secondary')
 
-    document.querySelector('div#columns').insertBefore(primary, secondary)
+    document.querySelector('#columns').insertBefore(primary, secondary)
     secondary.style.marginLeft = '0'
   }
 

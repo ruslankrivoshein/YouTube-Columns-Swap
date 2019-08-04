@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "YouTube Columns Swap",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Swap YouTube columns for cases, when desktop panel is located at the left hand",
   "icons": {
     "48": "icon.png"
